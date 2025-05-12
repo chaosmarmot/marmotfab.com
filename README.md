@@ -1,40 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MarmotFab Website
 
-## Getting Started
+A modern, responsive website for MarmotFab, LLC - Engineering Solutions for Off-Road Platforms. Built with Next.js and Tailwind CSS, this site showcases our CAD-driven, precision-fit hardware designs for Toyota & Lexus vehicles.
 
-First, run the development server:
+## Features
+
+- Responsive design optimized for all devices
+- Modern UI with smooth transitions and animations
+- Contact form for client inquiries
+- Services showcase with pricing
+- Custom domain deployment (marmotfab.com)
+
+## Tech Stack
+
+- Next.js 14
+- React 18
+- Tailwind CSS
+- GitHub Pages for hosting
+- GitHub Actions for CI/CD
+
+## Development
+
+1. Clone the repository:
+
+   ```bash
+   git clone git@github.com:chaosmarmot/marmotfab.com.git
+   cd marmotfab.com
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the site
+
+## Deployment
+
+The site is automatically deployed to GitHub Pages when changes are pushed to the main branch. The deployment process is handled by GitHub Actions and includes:
+
+1. Building the Next.js application
+2. Optimizing assets
+3. Deploying to GitHub Pages
+4. Configuring the custom domain (marmotfab.com)
+
+To deploy manually:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Custom Domain Setup
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The site is configured to use the custom domain marmotfab.com. This is handled by:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- CNAME file in the public directory
+- DNS configuration at the domain registrar
+- GitHub Pages custom domain settings
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+All rights reserved. This codebase is proprietary and confidential.
