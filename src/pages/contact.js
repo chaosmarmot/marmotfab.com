@@ -98,7 +98,7 @@ export default function Contact() {
         <div className="w-full max-w-lg bg-gray-50 rounded-xl shadow p-8 text-center">
           <h2 className="text-2xl font-bold text-green-600 mb-4">Thank You!</h2>
           <p className="text-gray-600">
-            We've received your message and will reach out to you shortly.
+            We&apos;ve received your message and will reach out to you shortly.
           </p>
         </div>
       )}
